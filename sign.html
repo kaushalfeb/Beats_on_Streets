@@ -6,28 +6,28 @@
 			 .Head {text-align:center ; color:red ; background-color:yellow ;}
 		</style>
 </head>
-<body bgcolor="#800080" leftmargin = 100 topmargin = 70>
+<body bgcolor="#8e40c5" leftmargin = 100 topmargin = 70>
 		<h1 class = "Head"> Beats on Streets sign up page </h1>
 
 		<form action = "datasasa.txt"  method = 'get'>
-				
-				<textarea rows = 3 cols = 60>Enter your text here 
+
+				<textarea rows = 3 cols = 60>Enter your text here
 				</textarea><br>
 				<input type = submit value = "Send"><br>
-				
+
 				<label for="name"></label> Name:
 				<input type = "text" value = "Elon" autofocus><br>
-				
+
 
 				<label for="surname"></label> SurName:
 				<input type = "text" value = "" placeholder="Enter last name " autofocus><br>
-				
+
 
 				<label for="age"></label> Age
 				<input type = "text" value = "" required><br>
-				
+
 				<input type = submit value = "Fly"><br>
-				
+
 				Greet us first<br>
 				<input type="radio" name="greet" value="Hello">Hello<br>
 				<input type="radio" name="greet" value="Hi">Hi<br>
@@ -38,11 +38,50 @@
 				<input type="checkbox" name="toppings" value="Sauce">Sauce<br>
 				<input type="checkbox" name="toppings" value="Chilli">Chilli<br>
 				<input type="checkbox" name="toppings" value="Cheese">Cheese<br>
-					
+
 				<center>What is your password?
 				<input type="password" name="userpass"><br>
 				<input type="submit" name="Send"><br></center>
 		</form>
+<hr width = 100% >
+<h1><center><i>Upload your file</i></center></h1>
+<form action = "datasasa.txt" method = "post" enctype="multipart/form-data">
+Select your file</br>
+	<input type = "file" name = "filetoupload"></br></br></br>
+	Click here to Upload</br>
+	<input type = "sumbit" name "Pic"></br></br></br></br>
 
+	<label for = "age">Age<label>
+	<input type = "number" min = 1 max = 120 step =1 value = 18 name = "age" id = "age" required></br></br>
+	<label for = "date">Date</label>
+	<input type = "date" id = "date" name ="date"></br></br>
+	<label for = "Time">Time</label>
+	<input type = "time" id = "time" name = "time"></br></br>
+	<label for = "color"> Colour</label>
+	<input type = "color" id = "clr" name = "clr"></br></br>
+	<label for = "mood">Mood</label></br>
+	Bad
+	<input type = "range" min = "0" max = "100" step = "10" value = "50" id = "mood" name = "mood" >Good</br></br>
+</form>
+<br><br><br>
+<div>
+	<fieldset>
+				<legend>Types of humans</legend>
+				Good<br>
+				Bad<br>
+				Ugly<br>
+	</fieldset>
+	<br><br><br><br>
+	<fieldset>
+			<legend>Colors of Rainbow</legend>
+			Violet<br>
+			Indigo<br>
+			Blue<br>
+			Green<br>
+			Yellow<br>
+			Orange<br>
+			Red<br>
+	</feildset>
+</div>
 </body>
 </html>

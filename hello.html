@@ -1,11 +1,47 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>hxgh</title>
+	<title>JavaScript</title>
+	<script>
+
+	function vowel()
+	{
+		var v = "a e i o u";
+		alert(v);
+	}
+
+	var name = prompt("Who are you");
+	if(name == "Rahul"){
+		alert("Hello Rahul");
+		}
+	else {
+		alert("Go away "+ name);
+		vowel();
+	}
+	var pets = ["Dog","Cat","Rat","Lion","Eagle"];
+	alert(pets.join(" , "));
+	alert(pets[2]);
+	alert(pets.length);
+	pets.push("Hamster");
+	alert(pets.length);
+	pets.unshift("Elephant");
+	alert(pets.join(", "));
+	var end = pets.pop();
+	var frnt = pets.shift();
+	alert(pets.join(" - "));
+	var rslt = [1,2,3,4,5];
+	alert(rslt.join(","));
+	var petnum = pets.concat(rslt);
+	alert(petnum.join(" -> "));
+	var random = Math.random() * 10;
+	alert(random);
+	var nran = Math.floor(random);
+	alert("After removing decimal " + nran); 
+	</script>
 </head>
 <body>
 
-	hello my nme 
+		Who is Elon Musk?
 
 </body>
 </html>
